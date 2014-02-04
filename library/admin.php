@@ -75,7 +75,7 @@ function bones_rss_dashboard_widget() {
 
 // calling all custom dashboard widgets
 function bones_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
+	//wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
 	/*
 	Be sure to drop any other created Dashboard Widgets
 	in this function and they will all load.
